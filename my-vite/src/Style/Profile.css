@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile-cnt{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+
+}
+
+.profile-data-cnt{
+
+    width: 34%;
+    height:82%;
+    /* border: 2px solid black; */
+    /* box-shadow: 2px 2px 2px 2px rgb(125, 112, 112); */
+    border-radius: 20px;
+    background-color: rgb(250, 244, 251);
+    margin-top: 5.5%;
+    box-shadow: 1px 1px 1.6px 1.6px rgb(201, 190, 190);
+    box-shadow: 2px 2px 2px 2px rgb(201, 190, 190);
+    color: black;
+    margin-left: 4%;
+   
+    
+}
+
+.profile-data-cnt p{
+
+    margin-left: 80px;
+    color: black;
+    font-size: 20px;
+}
+
+.profile-img-cnt{
+
+    width: 140px;
+    height: 140px;
+    /* border: 2px solid black; */
+    /* box-shadow: 3px 3px 2px 2px rgb(138, 121, 121); */
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 50%;
+    background-color:  rgb(111, 25, 119);
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.btn-oder{
+
+    background-color: rgb(111, 25, 119);
+    width: 200px;
+    border: 2px solid  rgb(111, 25, 119);
+}
+
+.Offer-cnt{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+.offer-data-cnt{
+
+    width: 95%;
+    height: 25%;
+    /* border: 2px solid black; */
+    margin-left: 2.5%;
+    margin-top: 20px;
+    display: flex;
+    color: black;
+    
+}
+.Silver-cnt{
+    width: 30%;
+    height: 80%;
+    margin-left: 10px;
+    /* box-shadow: 2px 2px 2px 2px rgb(161, 144, 144); */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #1877F2;
+    border-radius: 10px;
+    color: rgb(210, 206, 206);
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.golden-cnt{
+
+    width: 30%;
+    height: 80%;
+    margin-left: 20px;
+    /* box-shadow: 2px 2px 2px 2px rgb(161, 144, 144); */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #1877F2;
+    border-radius: 10px;
+    color: yellow;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.dimond-cnt{
+
+    width: 30%;
+    height: 80%;
+    margin-left: 20px;
+    /* border: 2px solid black; */
+    /* box-shadow: 2px 2px 2px 2px rgb(161, 144, 144); */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:#1877F2;
+    border-radius: 10px;
+    color: red;
+    font-size: 80px;
+    cursor: pointer;
+
+}
+
+.write-up{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.write-up p{
+    margin-top: 45px;
+}
+
+.btn-silver{
+    background-color: silver;
+    margin-right: 10px;
+    width: 20px;
+    height: 14px;
+}
+
+.btn-gold{
+    background-color: gold;
+    margin-right: 10px;
+    width: 20px;
+    height: 14px;
+
+}
+
+.btn-dimond{
+
+    background-color: rgba(237, 12, 12, 0.87);
+    margin-right: 10px;
+    width: 20px;
+    height: 14px;
+
+}

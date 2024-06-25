@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.add-item-cnt{
+
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 2px 2px 2px 2px rgb(126, 115, 115); */
+    margin-top: 0%;
+    display: flex;
+    position: relative;
+    border: 2px solid black;
+    
+}
+
+.heading-food-cnt{
+
+    width: 180px;
+    display: flex;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(17, 168, 194, 0.937);
+   border-bottom-left-radius: 60px;
+   border-top-right-radius: 60px;
+   color: aliceblue;
+    margin-left: -5%;
+   
+}
+.form{
+    width: 650px;
+    height: 600px;
+    /* border: 2px solid black; */
+    /* box-shadow: 2px 2px 2px 2px rgb(159, 148, 148); */
+    margin-left: 6%;
+    margin-top: 10px;
+    color: rgb(241, 239, 236) !important;
+    box-shadow: 1px 1px 2px 2ox gray;
+    box-shadow: 2px 2px  2px 2px gray;
+    border-radius: 20px;
+    /* background-color: rgb(44, 30, 46); */
+    padding: 30px;
+    padding-right: 40px;
+   
+}
+
+.form label{
+    color: white;
+
+}
+
+.items{
+
+    color: azure !important;
+    margin-top: 20px;
+}
+
+.buttons{
+    width: 290px;
+    margin-left: 100px;
+    background-color: rgba(194, 17, 150, 0.937);
+}
+
+.show-users-data{
+
+    width: 350px;
+    height: 96%;
+    margin-left: 60px;
+    /* border: 2px solid white; */
+    margin-top: 2%;
+    
+}
+
+
+
+.del-food{
+
+    width: 85%;
+    height: 10%;
+    background-color: rgba(144, 17, 144, 0.965);
+    /* border: 2px solid rgb(221, 13, 13); */
+    margin-left: 5%;
+    margin-top: 8%;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 2px 2px rgb(197, 191, 191); */
+    /* background-color: rgb(41, 26, 43); */
+    background-color: rgba(144, 17, 144, 0.965);
+    display: flex;
+    cursor: pointer;
+   
+
+}
+
+
+
+
+
+
+.del-food h2{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    color: black;
+
+}
+.del-logo{
+    width: 30%;
+    height: 80%;
+    /* background-color: rgb(54, 39, 54); */
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-left: 8%;
+    color: rgb(221, 13, 13);
+    background-color: rgb(41, 96, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+}
+.add-food{
+    width: 85%;
+    height: 10%;
+    background-color: rgba(144, 17, 144, 0.965);
+    /* border: 2px solid rgb(221, 13, 13); */
+    margin-left: 5%;
+    margin-top: 8%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(197, 191, 191);
+    /* background-color: rgb(41, 26, 43); */
+    display: flex;
+    cursor: pointer;
+
+}
+
+.add-food h2{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    color: black;
+
+}
+.add-logo{
+    width: 30%;
+    height: 80%;
+    /* background-color: rgb(54, 39, 54); */
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-left: 8%;
+    color: rgb(221, 13, 13);
+    background-color: rgb(41, 96, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+.block-unblock-food{
+
+    width: 85%;
+    height: 10%;
+    background-color: rgba(144, 17, 144, 0.965);
+    /* border: 2px solid rgb(221, 13, 13); */
+    margin-left: 5%;
+    margin-top: 8%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(197, 191, 191);
+    /* background-color: rgb(41, 26, 43); */
+    display: flex;
+    cursor: pointer;
+
+}
+
+.block-unblock-food h4{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin-left: 20px;
+
+}
+.block-unblock-food-logo{
+    width: 30%;
+    height: 80%;
+    /* background-color: rgb(54, 39, 54); */
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-left: 8%;
+    color: rgb(221, 13, 13);
+    background-color: rgb(41, 96, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/* //Deleted page style */
+
+.deleteted-cnt{
+
+    width: 650px;
+    height: 600px;
+    /* border: 2px solid rgb(189, 9, 9); */
+    margin-top: 40px;
+    margin-left: 6%;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* .tble{
+    width: 100% !important; 
+    height: 80vh !important;
+    background-color: rgb(56, 29, 56);
+
+} */
+
+.show-users-data1{
+
+    width: 350px;
+    height: 96%;
+    margin-left: 100px;
+    /* border: 2px solid white; */
+    margin-top: 2%;
+    
+}
+
+.del-food1{
+
+    width: 85%;
+    height: 10%;
+    background-color: rgba(144, 17, 144, 0.965);
+    /* border: 2px solid rgb(221, 13, 13); */
+    margin-left: 5%;
+    margin-top: 8%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(197, 191, 191);
+    /* background-color: rgb(41, 26, 43); */
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+.del-food1 h2{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin-left: 20px;
+
+}
+
+
+.add-food1{
+
+    width: 85%;
+    height: 10%;
+    background-color: rgba(144, 17, 144, 0.965);
+    /* border: 2px solid rgb(221, 13, 13); */
+    margin-left: 5%;
+    margin-top: 8%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(197, 191, 191);
+    /* background-color: rgb(41, 26, 43); */
+    display: flex;
+    cursor: pointer;
+
+}
+
+.add-food1 h2{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    color: black;
+
+}
+
+
+/* block and unblock css */
+
+
+.show-users-data2{
+
+    width: 350px;
+    height: 96%;
+    margin-left: 100px;
+    /* border: 2px solid white; */
+    margin-top: 2%;
+    
+}
+
+.del-food2{
+
+    width: 85%;
+    height: 10%;
+    background-color: rgba(144, 17, 144, 0.965);
+    /* border: 2px solid rgb(221, 13, 13); */
+    margin-left: 5%;
+    margin-top: 8%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(197, 191, 191);
+    /* background-color: rgb(41, 26, 43); */
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+.del-food2 h2{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin-left: 20px;
+
+}
+
+.block-unblock-food2{
+
+    width: 85%;
+    height: 10%;
+    background-color: rgba(144, 17, 144, 0.965);
+    /* border: 2px solid rgb(221, 13, 13); */
+    margin-left: 5%;
+    margin-top: 8%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(197, 191, 191);
+    /* background-color: rgb(41, 26, 43); */
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+.block-unblock-food2 h4{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+

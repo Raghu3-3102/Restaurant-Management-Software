@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.visulization-cnt{
+    width: 95%;
+    height: 170px;
+    margin-left: 2.5%;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    /* box-shadow: 1px 1px 2px 2px rgb(126, 111, 111); */
+}
+
+.daily-sale{
+    width: 31%;
+    height: 90%;
+    /* box-shadow: 1px 1px 2px 2px rgb(126, 111, 111); */
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    padding: 0;
+    color: rgb(2, 2, 2);
+    border: 2px solid rgb(28, 15, 208);
+    background-color: rgb(247, 243, 247);
+   
+}
+
+.daily-sale i{
+
+    font-size: 90px;
+    height: 100px;
+    margin-top: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    /* background-color: rgb(28, 15, 208); */
+    /* color: rgb(28, 15, 208); */
+    /* background-color: rgb(28, 15, 208); */
+    color: rgb(28, 15, 208) ;
+}
+
+.oder-cnts{
+
+    width: 55%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.weekly-sale{
+    width: 31%;
+    height: 90%;
+    /* box-shadow: 1px 1px 2px 2px rgb(126, 111, 111); */
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    padding: 0;
+    color: rgb(5, 5, 5);
+    background-color: rgb(246, 242, 246);
+    border: 2px solid rgb(251, 8, 251);
+   
+}
+
+.weekly-sale i{
+
+    font-size: 90px;
+    height: 100px;
+    margin-top: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    /* background-color: brown; */
+    color: rgb(251, 8, 251);
+    /* background-color: rgb(47, 33, 50); */
+}
+
+.monethly-sale{
+    width: 31%;
+    height: 90%;
+    /* box-shadow: 1px 1px 2px 2px rgb(126, 111, 111); */
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    padding: 0;
+    color: rgb(10, 10, 10);
+    background-color: rgb(251, 251, 251);
+    border: 2px solid rgb(14, 221, 14);
+   
+}
+
+.monethly-sale i{
+
+    font-size: 90px;
+    height: 100px;
+    margin-top: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    /* background-color: rgb(25, 205, 16); */
+    color: rgb(14, 221, 14);
+    
+}
+.chart-cnt{
+    position: absolute;
+    width: 83%;
+    height: 370px;
+    /* border: 2px solid black; */
+    /* background-color: rgb(48, 28, 48); */
+    border-radius: 20px;
+    /* border: 4px solid rgb(29, 146, 167); */
+    margin-left: 180px;
+    display: flex;
+    margin-top: 70px;
+}
+
+

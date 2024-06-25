@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noti-cnt{
+    /* width: 95%;
+    height: 10px;
+    margin-left: 2.5%;
+    box-shadow: 2px 2px 2px 2px rgb(103, 99, 99); */
+    width: 99%;
+    height: 99%;
+    /* box-shadow:  2px 2px 2px 2px rgb(131, 111, 111); */
+    padding-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    position: relative;
+    position: relative;
+   
+ 
+    
+}
+
+
+
+
+.noti{
+
+    width: 80%;
+    height: 30px;
+    /* box-shadow: 1px 1px 2px 2px rgb(103, 99, 99); */
+    margin-left: 5.5%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color: rgb(255, 252, 255);
+    color: black;
+    box-shadow: 2px 2px 2px 2px gray;
+    transition: transform 0.5s;
+
+}
+.noti:hover{
+    background-color: rgba(252, 120, 252, 0.893);
+}
+
+/* .noti-btn{
+    margin-left: 430px;
+    /* background-color: rgb(44, 161, 177); */
+    /* margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+  
+} */
+
+.del-btn{
+
+    width: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    height: 24px;
+    right: 120px;
+    position: absolute;
+    background-color:  white;
+   
+   color: red;
+}

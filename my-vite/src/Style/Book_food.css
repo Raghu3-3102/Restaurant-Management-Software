@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pay-cnt{
+    width: 98%;
+    height: 95%;
+    border: 6px solid rgb(41, 26, 43);
+    margin-top: 30px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 4px solid purple;
+    background-color: purple;
+    background-color: rgb(41, 26, 43);
+    background-color: white;
+    color: black;
+    /* border-top: none; */
+    display: flex;
+    /* padding-top: 60px; */
+   
+    
+}
+
+.img-cnt{
+    width: 450px;
+    height: 50%;
+    margin-top: 120px;
+    margin-left: 60px;
+    border-radius: 20px;
+    border: 2px solid red;
+    overflow: hidden;
+    /* border: 5px solid rgb(47, 122, 150); */
+    /* margin-top: 50px; */
+    /* margin-left: 50px; */
+
+   
+}
+
+.img-cnt img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.p-text{
+    margin-top: 6px;
+}
+
+
+
+.text-cnts{
+    width: 46%;
+    height: 580px;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    margin-left: 80px;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 2px gray;
+    /* text-align: center; */
+    /* border-left: 5px solid rgb(33, 137, 149);
+    padding-left: 8px;
+    border-bottom: 5px solid rgb(33, 137, 149);
+    padding-bottom: 8px;
+    border-right: 5px solid rgb(33, 137, 149); */
+}
+
+.btnss{
+
+    margin-left: 0px;
+    height: 40px;
+    width: 160px;
+    margin-left: 180px;
+    border-radius: none;
+    border: none;
+    background-color:rgb(149, 33, 137) ;
+    transition: transform 1s;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnss i{
+
+    font-size: 25px;
+}
+
+
+.btnss:hover{
+    transform: scale(1.1);
+}
+
+.payment-cucess{
+
+    width: 370px;
+    height: 500px;
+    margin-left: 40px;
+    border: 2px solid black;
+    margin-top: 30px;
+}

@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.reg-cnt{
+
+    width: 80%;
+    height: 88vh;
+    box-shadow: 2px 2px 2px 2px rgb(146, 142, 142);
+    box-shadow: 2px 2px 2px 2px rgb(146, 142, 142);
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgb(250, 247, 251);
+    color: rgb(1, 1, 1);
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 6vh;
+    display: flex;
+
+
+}
+
+Form label{
+    color: rgb(52, 50, 50) !important;
+}
+
+.reg-img-cnt{
+
+    width: 30%;
+    height: 60%;
+    background-color: rgb(61, 31, 55);
+    /* box-shadow: 2px 2px 0px 0px rgb(143, 133, 133); */
+    font-size: 110px;
+    color: rgb(237, 17, 105);
+    border: 4px solid rgb(237, 17, 105);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform 6s ease;
+}
+
+.reg-img-cnt  :hover{
+   transform: rotate(180deg);
+   
+   
+     
+}
+
+/* .reg-img-cnt{
+
+
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    overflow: hidden;
+} */
+
+.reg{
+
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* border: 2px solid black; */
+    
+    
+    
+}
+
+.heaid{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2px;
+    /* margin-top: 10px; */
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.row{
+
+    margin-left: 60px !important;
+   margin-top: 0px !important;
+   color: white;
+}
+
+.reg-btn{
+
+    margin-left: -40px !important;
+   margin-top: 0px !important;
+   margin-top: 20px;
+   background-color: purple;
+   border: 2px solid purple;
+   width: 300px;
+   margin-bottom: 15px;
+}
+
+.anchor1{
+
+    margin-top: -10px;
+    margin-left: 120px;
+    display: flex;
+
+
+}
+.anchor2{
+
+    margin-top: -44px;
+    margin-left: 0px;
+    position: absolute;
+
+
+}
+
+.pass-reg{
+    
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.pass-btn{
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(180, 166, 166);
+    background: none;
+    cursor: pointer;
+}
+
+.heaids{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-top: 10px; */
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.heaidss{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-top: 10px; */
+    font-size: 30px;
+    margin-bottom: 30px;
+}

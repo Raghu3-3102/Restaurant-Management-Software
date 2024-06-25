@@ -1,0 +1,180 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.food-card{
+
+    width: 600px;
+    height: 175px;
+    box-shadow: 1px 1px 1.2px 1.2px rgb(202, 193, 193);
+    margin-left: 50px;
+    margin-top: 12px;
+    position: relative;
+    background-color: rgb(41, 26, 43); 
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    position: relative;
+}
+
+
+
+.food-card:hover{
+
+    box-shadow: 2px 2px 1px 1px purple;
+    box-shadow: 1px 1px 2px 2px purple;
+
+    background-color: purple;
+    border: 2px solid purple;
+    transform: scale(1.05);
+    
+}
+
+.image-cnt{
+
+    width: 200px;
+    height: 80%;
+    margin : 7px;
+    margin-top: 20px;
+    margin-right: 25px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: absolute;
+    background-size: cover;
+
+}
+.image-cnt img{
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.text-cnt{
+    width: 300px;
+    height: 90%;
+    margin-left: 240px;
+    padding-top: 6px;
+    margin-top: 6px;
+    position: absolute;
+    font-size: 14px;
+
+  
+}
+
+.food-card  h5{
+
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-left: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+
+    overflow: hidden;
+ 
+
+}
+
+.food-card  h4{
+
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-left: 500px;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+ 
+
+} */
+
+.food-card{
+
+    width: 200px;
+    height: 260px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(213, 13, 146); */
+    background-color: rgb(41, 26, 43);
+    background-color: white;
+    box-shadow: 2px 2px 1px 1px gray;
+    box-shadow: 1px 1px 2px 2px gray;
+    transition: transform 0.5s;
+    color: black;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.food-card:hover{
+
+    box-shadow: 2px 2px 1px 1px purple;
+    box-shadow: 1px 1px 2px 2px purple;
+
+    background-color: #1877F2;
+    border: 2px solid #1877F2;
+    transform: scale(1.1);
+    
+}
+
+.image-cnt{
+
+    width: 90%;
+    height: 55%;
+    margin: 10px;
+    border-radius: 15px;
+    padding-top: 10px;
+    overflow: hidden;
+
+}
+
+.image-cnt img{
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.text-cnt{
+    width: 90%;
+    height: 20%;
+    /* border: 2px solid black; */
+    margin-left: 5.5%;
+}
+
+.like-cnt{
+
+    width: 90%;
+    height: 15%;
+    border: 2px solid black;
+    background-color: #1877F2;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 6%;
+}
+
+.like-cnt h4{
+
+    font-size: 30px;
+    margin-left: 50px;
+
+}
+
+.like-cnt h5{
+
+    font-size: 30px;
+    margin-left: 15px;
+}
+/* Add more styles as needed for icons, animations, etc. */
+

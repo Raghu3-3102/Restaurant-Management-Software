@@ -1,0 +1,95 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.oder-cnt{
+
+    width: 95%;
+    height: 86vh;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    /* border: 6px solid blue; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* .card-oders{
+    width: 300px;
+    height: 450px;
+    box-shadow: 2px 2px 2px 2px rgb(159, 149, 149);
+    margin-left: 220px;
+    margin-top: 50px;
+    
+}
+
+.card-oders p{
+    margin-left: 6px;
+}
+
+.img-cnt-oder{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 7px;
+    
+}
+
+.img-cnt-oder img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn1{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(35, 139, 147);
+
+}
+
+/* .btn2{
+    width: 100px;
+    height: 40px;
+    margin-left: 43px;
+    background-color: rgb(251, 11, 15);
+    font-size: 25px;
+} */ 
+
+
+
+
+.btn1{
+  
+   
+    color: rgba(11, 251, 19, 0.977) !important;
+    cursor: pointer;
+    font-size: 20px !important;
+    
+    
+} 
+.btn2{
+  
+   
+    color: rgba(251, 11, 15, 0.954);
+    cursor: pointer;
+    font-size: 20px !important;
+    
+}  
+
+
+
+.tble{
+    width: 100% !important; 
+    height: 90% !important;
+    background-color: rgb(255, 252, 255);
+
+}
+
+
+/* Table{
+    background-color: rgba(100, 67, 86, 0.548);
+} */
