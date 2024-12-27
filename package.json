@@ -4,8 +4,10 @@
   "description": "Restorent system",
   "main": "server.js",
   "scripts": {
-    "test": "dev"
-  },
+  "start": "concurrently \"npm run server\" \"npm run frontend\"",
+  "server": "node server.js",
+  "frontend": "npm run dev --prefix /path/to/your/vite/project"
+},
   "keywords": [
     "c"
   ],
@@ -18,5 +20,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.2",
     "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
   }
 }
