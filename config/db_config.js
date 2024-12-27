@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://127.0.0.1:27017/restorents");
+mongoose.connect("mongodb+srv://raghvendrakumarpandey321:ZLKw58wx6r7qyyx3@cluster0.y7bol.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 const connection = mongoose.connection;
 

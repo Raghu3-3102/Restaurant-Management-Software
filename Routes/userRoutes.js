@@ -15,146 +15,32 @@ router.post("/register", async (req, res) => {
   // try {
 
     try {
-      
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-          user: process.env.EMAIL, // Your Gmail address
-          pass:  process.env.PASSWARD// Your Gmail password
-      }
-  });
 
-  const htmlContent = `
-<!DOCTYPE html>
-<html lang="en">
+    const existUser = await User.findOne({ email: req.body.email });
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to The Grill</title>
-</head>
+    if (existUser) {
+      return res.status(200).send({
+        message: "User allready Exist",
+        success: false,
+      });
+    }
 
-<body style="font-family: Arial, sans-serif;">
+    const passward = req.body.passward;
+    const salt = await bcrypt.genSalt(10);
+    const hashedpassward = await bcrypt.hash(passward, salt);
+    req.body.passward = hashedpassward;
 
-    <table style="max-width: 600px; margin: 0 auto; padding: 20px; border-collapse: collapse; text-align: center;">
-        <tr>
-            <td style="padding-bottom: 20px;">
-                <img src="https://i.pinimg.com/originals/dc/15/bd/dc15bde3ee2117815e88fdde286fd6da.jpg" alt="The Grill Logo" style="width: 200px; height: auto;">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h1 style="color: #ff6600; margin-bottom: 10px;">Welcome to The Grill!</h1>
-                <p style="font-size: 16px;">Dear ${req.body.name},</p>
-                <br />
-                <p style="font-size: 16px;">Congratulations on joining The Grill family! We are thrilled to have you with us and can't wait for you to embark on a culinary journey like no other.</p>
-                <p style="font-size: 16px;">At The Grill, we are committed to providing you with exceptional dining experiences, exquisite dishes, and top-notch service that will leave you craving for more.</p>
-                <p style="font-size: 16px;">Feel free to explore our menu, book a table for your next dining experience, or simply drop by to say hello. We are here to make your time with us unforgettable.</p>
-                <p style="font-size: 16px;">Once again, welcome to The Grill! We look forward to serving you soon.</p>
-                <p style="font-size: 16px;">Best regards,<br>The Grill Team</p>
-            </td>
-        </tr>
-    </table>
+    const userData = new User(req.body);
+    const saveData = await userData.save();
 
-</body>
-
-</html>
-`;
-
-
-
-
-  const mailOption = {
-
-    from: process.env.EMAIL, // sender address
-    to: req.body.email, // list of receivers
-    subject: "wellcome to The grill famelly!", // Subject line
-    text: `Hii ${req.body.name}`, // plain text body
-    html: htmlContent,
- 
-
-
+    res.status(200).send({
+      messege: "succesfully registerd",
+      success: true,
+      data: saveData,
+    });
+  } catch (error) {
+    console.log(error);
   }
-
-  transporter.sendMail(mailOption, async (error,info)=>{
-    if (error) {
-
-      console.log(" Erorro from inside try "+error);
-
-      return(
-        res.status(200).send(
-          {
-            message : "You enter Email is wrong",
-            success : false
-          }
-        )
-      )
-
-     
-      
-    }else{
-      console.log("email send sucesfully");
-      try {
-
-        const existUser = await User.findOne({ email: req.body.email });
-
-        if (existUser) {
-          return res.status(200).send({
-            message: "User allready Exist",
-            success: false,
-          });
-        }
-    
-        const passward = req.body.passward;
-        const salt = await bcrypt.genSalt(10);
-        const hashedpassward = await bcrypt.hash(passward, salt);
-        req.body.passward = hashedpassward;
-    
-        const userData = new User(req.body);
-        const saveData = await userData.save();
-    
-        res.status(200).send({
-          messege: "succesfully registerd",
-          success: true,
-          data: saveData,
-        });
-        
-      } catch (error) {
-        console.log(error);
-      }
-    }
-  })
-    } catch (error) {
-      console.log("Error from out side try "+error);
-    }
-
-
-    // const existUser = await User.findOne({ email: req.body.email });
-
-    // if (existUser) {
-    //   return res.status(200).send({
-    //     message: "User allready Exist",
-    //     success: false,
-    //   });
-    // }
-
-    // const passward = req.body.passward;
-    // const salt = await bcrypt.genSalt(10);
-    // const hashedpassward = await bcrypt.hash(passward, salt);
-    // req.body.passward = hashedpassward;
-
-    // const userData = new User(req.body);
-    // const saveData = await userData.save();
-
-    // res.status(200).send({
-    //   messege: "succesfully registerd",
-    //   success: true,
-    //   data: saveData,
-    // });
-  // } catch (error) {
-  //   console.log(error);
-  // }
 });
 
 router.post("/login", async (req, res) => {
